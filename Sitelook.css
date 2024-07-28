@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  background: #2c1354;
+  font-family: 'Open Sans';
+  font-size: 20px;
+}
+
+h1 {
+  color: white;
+  text-shadow: 4px 2px #1f0a40;
+}
+
+p {
+  color: white;
+}
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    font-size: 20px;
+}
+.caption {
+    display: block;
+}
