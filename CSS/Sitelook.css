@@ -8,11 +8,11 @@ body {
 
 h1 {
   color: white;
-  text-shadow: 4px 2px #1f0a40;
 }
 
 p {
   color: white;
+
 }
 
 .open-sans-<uniquifier> {
@@ -29,6 +29,13 @@ div.item {
     display: inline-block;
     text-align: center;
     width: 120px;
+    font-size: 20px;
+}
+div.profile {
+    vertical-align: center;
+    display: inline-block;
+    text-align: center;
+    width: 320px;
     font-size: 20px;
 }
 .caption {
