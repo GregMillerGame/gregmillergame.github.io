@@ -1,10 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
-  background: #2c1354;
   font-family: 'Open Sans';
   font-size: 20px;
+  background-color: black;
+
 }
+
+.background
+{
+  background-image: url("../Images/Ships.png");
+  background-repeat: no-repeat;
+  background-color: black;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 200vh;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.blur
+{
+   filter: blur(8px);
+   opacity: .7;
+  -webkit-filter: blur(8px);
+}
+
+.roundImage
+{
+  border-radius: 50%;
+}
+
+
 
 h1 {
   color: white;
@@ -38,10 +69,51 @@ div.profile {
     width: 320px;
     font-size: 20px;
 }
+div.resume {
+    vertical-align: center;
+    display: inline-block;
+    text-align: center;
+    max-width: 125rem;
+    font-size: 20px;
+}
 .caption {
     display: block;
 }
 
-img.border {
-  border: 5px solid #555;
+
+img.edge
+{
+  -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+-webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+}
+
+.accordion {
+    max-width: 75rem;
+    --bs-accordion-bg: #212529; /* Change background color */
+    --bs-accordion-color: white; /* Change text color */
+    --bs-accordion-btn-color: white; /* Change button text color */
+    --bs-accordion-active-color: white; /* ???*/
+    --bs-accordion-active-bg: #15171a;
+}
+
+.embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
