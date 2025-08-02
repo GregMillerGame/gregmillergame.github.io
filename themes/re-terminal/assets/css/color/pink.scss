@@ -1,0 +1,5 @@
+html:root {
+  --accent: rgb(155, 35, 155);
+  --accent-contrast-color: white;
+  --background: color-mix(in srgb, var(--accent) 2%, #1D1E28 98%); /* background color; inherit shades of the accent */
+}

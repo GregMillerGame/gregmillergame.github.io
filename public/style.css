@@ -1,0 +1,8 @@
+:root {
+  --accent: #435661; /* 1 of 5 basic colors */
+  --background: color-mix(in srgb, var(--accent) 2%, #1D1E28 98%); /* background color; inherit shades of the accent */
+  --accent-contrast-color: black; /* mainly uses for text on the accent backgrounds but not limited */
+  --color: white; /* text color, also some other text use the variable in color mixing */
+  --border-color: rgba(255, 255, 255, .1); /* border color */
+
+}
